@@ -1,24 +1,24 @@
 package utilites;
 
-public interface QueueADT<T> {
+public interface QueueADT<E> {
 
 	/**
 	 * 
 	 * @param element
 	 */
-	public void enqueue(T element);
+	public void enqueue(E element);
 	
 	/**
 	 * 
 	 * @return
 	 */
-	public T dequeue();
+	public E dequeue();
 	
 	/**
 	 * 
 	 * @return
 	 */
-	public T first();
+	public E first();
 	
 	/**
 	 * 
