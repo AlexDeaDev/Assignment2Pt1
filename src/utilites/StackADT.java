@@ -1,4 +1,4 @@
-package utilites;
+package utilities;
 
 /**
  * An interface that defines a generic stack
