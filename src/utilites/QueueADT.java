@@ -64,13 +64,6 @@ public interface QueueADT<E> {
 	public boolean equals(QueueADT<E> that);
 	
 	/**
-	 * Returns an iterator for the queue.
-	 * 
-	 * @return iterator for queue
-	 */
-	public Iterator<E> iterator();
-	
-	/**
 	 * Creates an array copied from elements of queue.
 	 * 
 	 * @return queue elements array 
@@ -99,4 +92,11 @@ public interface QueueADT<E> {
 	 * post-condition: queue doesn't have elements stored
 	 */
 	public void dequeueAll();
+
+	/**
+	 * Returns an iterator for the queue.
+	 * 
+	 * @return iterator for queue
+	 */
+	public Iterator<E> iterator();
 }
