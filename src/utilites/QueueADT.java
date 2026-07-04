@@ -1,4 +1,4 @@
-package utilites;
+package utilities;
 
 public interface QueueADT<E> {
 
